@@ -9,7 +9,7 @@ int main() {
     printf("Digite o ano atual: ");
     scanf("%d", &ano_atual);
 
-    idade = ano_atual - ano_nascimento;
+    idade = ano_nascimento - ano_atual;
 
     printf("Você tem %d anos.\n", idade);
 
